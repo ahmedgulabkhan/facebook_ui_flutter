@@ -5,6 +5,7 @@ import 'package:facebook_ui_flutter/tabs/profile_tab.dart';
 import 'package:facebook_ui_flutter/tabs/notifications_tab.dart';
 import 'package:facebook_ui_flutter/tabs/menu_tab.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -48,7 +49,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
 
                 SizedBox(width: 15.0),
 
-                Icon(Icons.message, color: Colors.black)
+                Icon(FontAwesomeIcons.facebookMessenger, color: Colors.black)
               ]
             ),
           ],
