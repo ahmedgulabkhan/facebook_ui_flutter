@@ -5,15 +5,21 @@ import 'package:facebook_ui_flutter/models/post.dart';
 import 'package:flutter/material.dart';
 
 class HomeTab extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: <Widget>[
-        WriteSomethingWidget(),
-        SeparatorWidget(),
-        PostWidget()
-      ],
+    return SingleChildScrollView(
+      child: Column(
+        children: <Widget>[
+          WriteSomethingWidget(),
+          SeparatorWidget(),
+          PostWidget(post: posts[0]),
+          SeparatorWidget(),
+          PostWidget(post: posts[0]),
+          SeparatorWidget(),
+          PostWidget(post: posts[0]),
+          SeparatorWidget(),
+        ],
+      ),
     );
   }
 }
