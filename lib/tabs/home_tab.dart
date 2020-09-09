@@ -1,4 +1,5 @@
 import 'package:facebook_ui_flutter/widgets/write_something_widget.dart';
+import 'package:facebook_ui_flutter/widgets/separator_widget.dart';
 import 'package:flutter/material.dart';
 
 class HomeTab extends StatelessWidget {
@@ -6,7 +7,8 @@ class HomeTab extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
-        WriteSomethingWidget()
+        WriteSomethingWidget(),
+        SeparatorWidget()
       ],
     );
   }

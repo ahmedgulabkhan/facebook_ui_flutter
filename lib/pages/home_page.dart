@@ -1,4 +1,9 @@
 import 'package:facebook_ui_flutter/tabs/home_tab.dart';
+import 'package:facebook_ui_flutter/tabs/friends_tab.dart';
+import 'package:facebook_ui_flutter/tabs/watch_tab.dart';
+import 'package:facebook_ui_flutter/tabs/profile_tab.dart';
+import 'package:facebook_ui_flutter/tabs/notifications_tab.dart';
+import 'package:facebook_ui_flutter/tabs/menu_tab.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -53,13 +58,15 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
         bottom: TabBar(
           indicatorColor: Colors.blueAccent,
           controller: _tabController,
+          unselectedLabelColor: Colors.grey,
+          labelColor: Colors.blueAccent,
           tabs: [
-            Tab(icon: Icon(Icons.home, size: 30.0, color: Colors.blueAccent)),
-            Tab(icon: Icon(Icons.home, size: 30.0, color: Colors.blueAccent)),
-            Tab(icon: Icon(Icons.home, size: 30.0, color: Colors.blueAccent)),
-            Tab(icon: Icon(Icons.home, size: 30.0, color: Colors.blueAccent)),
-            Tab(icon: Icon(Icons.home, size: 30.0, color: Colors.blueAccent)),
-            Tab(icon: Icon(Icons.home, size: 30.0, color: Colors.blueAccent))
+            Tab(icon: Icon(Icons.home, size: 30.0)),
+            Tab(icon: Icon(Icons.people, size: 30.0)),
+            Tab(icon: Icon(Icons.ondemand_video, size: 30.0)),
+            Tab(icon: Icon(Icons.account_circle, size: 30.0)),
+            Tab(icon: Icon(Icons.notifications, size: 30.0)),
+            Tab(icon: Icon(Icons.menu, size: 30.0))
           ],
         ),
       ),
@@ -67,11 +74,11 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
         controller: _tabController,
         children: [
           HomeTab(),
-          HomeTab(),
-          HomeTab(),
-          HomeTab(),
-          HomeTab(),
-          HomeTab()
+          FriendsTab(),
+          WatchTab(),
+          ProfileTab(),
+          NotificationsTab(),
+          MenuTab()
         ]
       ),
     );
