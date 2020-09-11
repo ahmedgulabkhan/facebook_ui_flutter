@@ -11,43 +11,67 @@ class StoriesWidget extends StatelessWidget {
         children: <Widget>[
           SizedBox(width: 15.0),
           Container(
-            width: 100.0,
-            color: Colors.red,
+            width: 120.0,
+            decoration: BoxDecoration(
+              color: Colors.red,
+              borderRadius: BorderRadius.circular(10.0)
+            ),
           ),
-          SizedBox(width: 15.0),
+          SizedBox(width: 10.0),
           Container(
-            width: 100.0,
-            color: Colors.red,
+            width: 120.0,
+            decoration: BoxDecoration(
+              color: Colors.red,
+              borderRadius: BorderRadius.circular(10.0)
+            ),
           ),
-          SizedBox(width: 15.0),
+          SizedBox(width: 10.0),
           Container(
-            width: 100.0,
-            color: Colors.red,
+            width: 120.0,
+            decoration: BoxDecoration(
+              color: Colors.red,
+              borderRadius: BorderRadius.circular(10.0)
+            ),
           ),
-          SizedBox(width: 15.0),
+          SizedBox(width: 10.0),
           Container(
-            width: 100.0,
-            color: Colors.red,
+            width: 120.0,
+            decoration: BoxDecoration(
+              color: Colors.red,
+              borderRadius: BorderRadius.circular(10.0)
+            ),
           ),
-          SizedBox(width: 15.0),
+          SizedBox(width: 10.0),
           Container(
-            width: 100.0,
-            color: Colors.red,
+            width: 120.0,
+            decoration: BoxDecoration(
+              color: Colors.red,
+              borderRadius: BorderRadius.circular(10.0)
+            ),
           ),
-          SizedBox(width: 15.0),
+          SizedBox(width: 10.0),
           Container(
-            width: 100.0,
-            color: Colors.red,
+            width: 120.0,
+            decoration: BoxDecoration(
+              color: Colors.red,
+              borderRadius: BorderRadius.circular(10.0)
+            ),
           ),
-          SizedBox(width: 15.0),
+          SizedBox(width: 10.0),
           Container(
-            width: 100.0,
-            color: Colors.red,
+            width: 120.0,
+            decoration: BoxDecoration(
+              color: Colors.red,
+              borderRadius: BorderRadius.circular(10.0)
+            ),
           ),
-          SizedBox(width: 15.0),
+          SizedBox(width: 10.0),
           Container(
-            width: 100.0,
-            color: Colors.red,
+            width: 120.0,
+            decoration: BoxDecoration(
+              color: Colors.red,
+              borderRadius: BorderRadius.circular(10.0)
+            ),
           ),
           SizedBox(width: 15.0),
         ],
