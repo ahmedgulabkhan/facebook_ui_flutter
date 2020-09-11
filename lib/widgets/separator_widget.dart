@@ -6,7 +6,7 @@ class SeparatorWidget extends StatelessWidget {
     return Container(
       color: Colors.grey[400],
       width: MediaQuery.of(context).size.width,
-      height: 13.0,
+      height: 11.0,
     );
   }
 }
