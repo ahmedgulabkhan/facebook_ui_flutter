@@ -4,7 +4,7 @@
 **Star ⭐ this repo if you like what you see.**
 
 <p><img src="snapshots/social-preview.png" /></p>
-<p style="text-align: center;"><b>facebook clone</b><p>
+<p align="center"><b>facebook clone</b></p>
 
 ## About
 A UI clone of the Facebook app that i created using Flutter.
