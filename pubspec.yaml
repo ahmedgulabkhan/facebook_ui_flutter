@@ -30,6 +30,7 @@ dependencies:
   cupertino_icons: ^0.1.3
   flutter_statusbarcolor: ^0.2.3
   font_awesome_flutter: ^8.8.1
+  video_player: ^0.10.12+2
 
 dev_dependencies:
   flutter_test:

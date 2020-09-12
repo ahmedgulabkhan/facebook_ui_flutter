@@ -258,7 +258,7 @@ class FriendsTab extends StatelessWidget {
             Row(
               children: <Widget>[
                 CircleAvatar(
-                  backgroundImage: AssetImage('assets/Joey.jpg'),
+                  backgroundImage: AssetImage('assets/joey.jpg'),
                   radius: 40.0,
                 ),
                 SizedBox(width: 20.0),
@@ -299,7 +299,7 @@ class FriendsTab extends StatelessWidget {
             Row(
               children: <Widget>[
                 CircleAvatar(
-                  backgroundImage: AssetImage('assets/Kalle.jpg'),
+                  backgroundImage: AssetImage('assets/kalle.jpg'),
                   radius: 40.0,
                 ),
                 SizedBox(width: 20.0),
@@ -625,6 +625,7 @@ class FriendsTab extends StatelessWidget {
                 )
               ],
             ),
+            SizedBox(height: 20.0)
           ],
         )
       ),

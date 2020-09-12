@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:facebook_ui_flutter/widgets/notification_widget.dart';
+import 'package:facebook_ui_flutter/models/user_notification.dart';
 class NotificationsTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -14,16 +15,7 @@ class NotificationsTab extends StatelessWidget {
               child: Text('Notifications', style: TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold)),
             ),
 
-            NotificationWidget(),
-            NotificationWidget(),
-            NotificationWidget(),
-            NotificationWidget(),
-            NotificationWidget(),
-            NotificationWidget(),
-            NotificationWidget(),
-            NotificationWidget(),
-            NotificationWidget(),
-            NotificationWidget(),
+            for(UserNotification notification in notifications) NotificationWidget(notification: notification)
           ],
         )
       ),
