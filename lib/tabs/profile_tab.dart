@@ -1,3 +1,4 @@
+import 'package:facebook_ui_flutter/widgets/separator_widget.dart';
 import 'package:flutter/material.dart';
 
 class ProfileTab extends StatelessWidget {
@@ -14,7 +15,7 @@ class ProfileTab extends StatelessWidget {
                   margin: EdgeInsets.symmetric(horizontal: 15.0, vertical: 15.0),
                   height: 180.0,
                   decoration: BoxDecoration(
-                    color: Colors.red,
+                    image: DecorationImage(image: AssetImage('assets/cover.jpg'), fit: BoxFit.cover),
                     borderRadius: BorderRadius.circular(10.0)
                   ),
                 ),
@@ -106,6 +107,148 @@ class ProfileTab extends StatelessWidget {
           ),
 
           Divider(height: 40.0),
+
+          Container(
+            padding: EdgeInsets.symmetric(horizontal: 15.0),
+            child: Column(
+              children: <Widget>[
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: <Widget>[
+                    Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Text('Friends', style: TextStyle(fontSize: 22.0, fontWeight: FontWeight.bold)),
+                        SizedBox(height: 6.0),
+                        Text('536 friends', style: TextStyle(fontSize: 16.0, color: Colors.grey[800])),
+                      ],
+                    ),
+                    Text('Find Friends', style: TextStyle(fontSize: 16.0, color: Colors.blue)),
+                  ],
+                ),
+
+                Padding(
+                  padding: const EdgeInsets.only(top: 15.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: <Widget>[
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: <Widget>[
+                          Container(
+                            height: MediaQuery.of(context).size.width/3 -20 ,
+                            width: MediaQuery.of(context).size.width/3 - 20,
+                            decoration: BoxDecoration(
+                              image: DecorationImage(image: AssetImage('assets/samantha.jpg')),
+                              borderRadius: BorderRadius.circular(10.0)
+                            ),
+                          ),
+                          SizedBox(height: 5.0),
+                          Text('Samantha', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold))
+                        ],
+                      ),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: <Widget>[
+                          Container(
+                            height: MediaQuery.of(context).size.width/3 -20 ,
+                            width: MediaQuery.of(context).size.width/3 - 20,
+                            decoration: BoxDecoration(
+                              image: DecorationImage(image: AssetImage('assets/andrew.jpg')),
+                              borderRadius: BorderRadius.circular(10.0)
+                            ),
+                          ),
+                          SizedBox(height: 5.0),
+                          Text('Andrew', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold))
+                        ],
+                      ),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: <Widget>[
+                          Container(
+                            height: MediaQuery.of(context).size.width/3 -20 ,
+                            width: MediaQuery.of(context).size.width/3 - 20,
+                            decoration: BoxDecoration(
+                              image: DecorationImage(image: AssetImage('assets/Sam Wilson.jpg'), fit: BoxFit.cover),
+                              borderRadius: BorderRadius.circular(10.0)
+                            ),
+                          ),
+                          SizedBox(height: 5.0),
+                          Text('Sam Wilson', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold))
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+
+                Padding(
+                  padding: const EdgeInsets.only(top: 15.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: <Widget>[
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: <Widget>[
+                          Container(
+                            height: MediaQuery.of(context).size.width/3 -20 ,
+                            width: MediaQuery.of(context).size.width/3 - 20,
+                            decoration: BoxDecoration(
+                              image: DecorationImage(image: AssetImage('assets/steven.jpg')),
+                              borderRadius: BorderRadius.circular(10.0)
+                            ),
+                          ),
+                          SizedBox(height: 5.0),
+                          Text('Steven', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold))
+                        ],
+                      ),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: <Widget>[
+                          Container(
+                            height: MediaQuery.of(context).size.width/3 -20 ,
+                            width: MediaQuery.of(context).size.width/3 - 20,
+                            decoration: BoxDecoration(
+                              image: DecorationImage(image: AssetImage('assets/greg.jpg')),
+                              borderRadius: BorderRadius.circular(10.0)
+                            ),
+                          ),
+                          SizedBox(height: 5.0),
+                          Text('Greg', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold))
+                        ],
+                      ),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: <Widget>[
+                          Container(
+                            height: MediaQuery.of(context).size.width/3 -20 ,
+                            width: MediaQuery.of(context).size.width/3 - 20,
+                            decoration: BoxDecoration(
+                              image: DecorationImage(image: AssetImage('assets/andy.jpg'), fit: BoxFit.cover),
+                              borderRadius: BorderRadius.circular(10.0)
+                            ),
+                          ),
+                          SizedBox(height: 5.0),
+                          Text('Andy', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold))
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+
+                Container(
+                  margin: EdgeInsets.symmetric(vertical: 15.0),
+                  height: 40.0,
+                  decoration: BoxDecoration(
+                    color: Colors.grey[300],
+                    borderRadius: BorderRadius.circular(5.0),
+                  ),
+                  child: Center(child: Text('See All Friends', style: TextStyle(color: Colors.black, fontWeight: FontWeight.bold, fontSize: 16.0))),
+                ),
+              ],
+            ),
+          ),
+          SeparatorWidget()
         ],
       )
     );
