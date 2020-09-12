@@ -53,8 +53,8 @@ $ git clone https://github.com/ahmedgulabkhan/facebook_ui_flutter.git
 - [Foodspace](https://www.github.com/ahmedgulabkhan/Foodspace) ![GitHub stars](https://img.shields.io/github/stars/ahmedgulabkhan/Foodspace?style=social) ![GitHub forks](https://img.shields.io/github/forks/ahmedgulabkhan/Foodspace?style=social)
 - [Atlas](https://www.github.com/ahmedgulabkhan/Atlas) ![GitHub stars](https://img.shields.io/github/stars/ahmedgulabkhan/Atlas?style=social) ![GitHub forks](https://img.shields.io/github/forks/ahmedgulabkhan/Atlas?style=social)
 - [GitTrends](https://www.github.com/ahmedgulabkhan/GitTrends) ![GitHub stars](https://img.shields.io/github/stars/ahmedgulabkhan/GitTrends?style=social) ![GitHub forks](https://img.shields.io/github/forks/ahmedgulabkhan/GitTrends?style=social)
-- [youtube_clone_flutter](https://www.github.com/ahmedgulabkhan/youtube_clone_flutter) ![GitHub stars](https://img.shields.io/github/stars/ahmedgulabkhan/youtube_clone_flutter?style=social) ![GitHub forks](https://img.shields.io/github/forks/youtube_clone_flutter/GitTrends?style=social)
-- [SnakeGameFlutter](https://www.github.com/ahmedgulabkhan/SnakeGameFlutter) ![GitHub stars](https://img.shields.io/github/stars/ahmedgulabkhan/SnakeGameFlutter?style=social) ![GitHub forks](https://img.shields.io/github/forks/youtube_clone_flutter/SnakeGameFlutter?style=social)
+- [youtube_clone_flutter](https://www.github.com/ahmedgulabkhan/youtube_clone_flutter) ![GitHub stars](https://img.shields.io/github/stars/ahmedgulabkhan/youtube_clone_flutter?style=social) ![GitHub forks](https://img.shields.io/github/forks/ahmedgulabkhan/youtube_clone_flutter?style=social)
+- [SnakeGameFlutter](https://www.github.com/ahmedgulabkhan/SnakeGameFlutter) ![GitHub stars](https://img.shields.io/github/stars/ahmedgulabkhan/SnakeGameFlutter?style=social) ![GitHub forks](https://img.shields.io/github/forks/ahmedgulabkhan/SnakeGameFlutter?style=social)
 
 ## LICENSE
 ```
