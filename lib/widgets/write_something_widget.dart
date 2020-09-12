@@ -13,8 +13,8 @@ class WriteSomethingWidget extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
                 CircleAvatar(
-                  radius: 25.0,
-                  backgroundColor: Colors.yellow,
+                  radius: 28.0,
+                  backgroundImage: AssetImage('assets/Mike Tyler.jpg'),
                 ),
 
                 SizedBox(width: 7.0),

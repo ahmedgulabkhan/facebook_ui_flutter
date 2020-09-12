@@ -20,7 +20,7 @@ class MenuTab extends StatelessWidget {
                 SizedBox(width: 15.0),
                 CircleAvatar(
                   radius: 25.0,
-                  backgroundColor: Colors.yellow,
+                  backgroundImage: AssetImage('assets/Mike Tyler.jpg'),
                 ),
                 SizedBox(width: 20.0),
                 Column(

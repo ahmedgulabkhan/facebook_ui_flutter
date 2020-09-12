@@ -38,72 +38,192 @@ class OnlineWidget extends StatelessWidget {
 
           SizedBox(width: 15.0),
 
-          CircleAvatar(
-            radius: 22.0,
-            backgroundColor: Colors.yellow,
+          Stack(
+            children: <Widget>[
+              CircleAvatar(
+                radius: 22.0,
+                backgroundImage: AssetImage('assets/samantha.jpg'),
+              ),
+              Positioned(
+                right: 1.0,
+                bottom: 1.0,
+                child: CircleAvatar(
+                  radius: 6.0,
+                  backgroundColor: Colors.green,
+                ),
+              ),
+            ],
           ),
 
           SizedBox(width: 15.0),
 
-          CircleAvatar(
-            radius: 22.0,
-            backgroundColor: Colors.yellow,
+          Stack(
+            children: <Widget>[
+              CircleAvatar(
+                radius: 22.0,
+                backgroundImage: AssetImage('assets/Sam Wilson.jpg'),
+              ),
+              Positioned(
+                right: 1.0,
+                bottom: 1.0,
+                child: CircleAvatar(
+                  radius: 6.0,
+                  backgroundColor: Colors.green,
+                ),
+              ),
+            ],
           ),
 
           SizedBox(width: 15.0),
 
-          CircleAvatar(
-            radius: 22.0,
-            backgroundColor: Colors.yellow,
+          Stack(
+            children: <Widget>[
+              CircleAvatar(
+                radius: 22.0,
+                backgroundImage: AssetImage('assets/greg.jpg'),
+              ),
+              Positioned(
+                right: 1.0,
+                bottom: 1.0,
+                child: CircleAvatar(
+                  radius: 6.0,
+                  backgroundColor: Colors.green,
+                ),
+              ),
+            ],
           ),
 
           SizedBox(width: 15.0),
 
-          CircleAvatar(
-            radius: 22.0,
-            backgroundColor: Colors.yellow,
+          Stack(
+            children: <Widget>[
+              CircleAvatar(
+                radius: 22.0,
+                backgroundImage: AssetImage('assets/james.jpg'),
+              ),
+              Positioned(
+                right: 1.0,
+                bottom: 1.0,
+                child: CircleAvatar(
+                  radius: 6.0,
+                  backgroundColor: Colors.green,
+                ),
+              ),
+            ],
           ),
 
           SizedBox(width: 15.0),
 
-          CircleAvatar(
-            radius: 22.0,
-            backgroundColor: Colors.yellow,
+          Stack(
+            children: <Widget>[
+              CircleAvatar(
+                radius: 22.0,
+                backgroundImage: AssetImage('assets/john.jpg'),
+              ),
+              Positioned(
+                right: 1.0,
+                bottom: 1.0,
+                child: CircleAvatar(
+                  radius: 6.0,
+                  backgroundColor: Colors.green,
+                ),
+              ),
+            ],
           ),
 
           SizedBox(width: 15.0),
 
-          CircleAvatar(
-            radius: 22.0,
-            backgroundColor: Colors.yellow,
+          Stack(
+            children: <Widget>[
+              CircleAvatar(
+                radius: 22.0,
+                backgroundImage: AssetImage('assets/olivia.jpg'),
+              ),
+              Positioned(
+                right: 1.0,
+                bottom: 1.0,
+                child: CircleAvatar(
+                  radius: 6.0,
+                  backgroundColor: Colors.green,
+                ),
+              ),
+            ],
           ),
 
           SizedBox(width: 15.0),
 
-          CircleAvatar(
-            radius: 22.0,
-            backgroundColor: Colors.yellow,
+          Stack(
+            children: <Widget>[
+              CircleAvatar(
+                radius: 22.0,
+                backgroundImage: AssetImage('assets/sophia.jpg'),
+              ),
+              Positioned(
+                right: 1.0,
+                bottom: 1.0,
+                child: CircleAvatar(
+                  radius: 6.0,
+                  backgroundColor: Colors.green,
+                ),
+              ),
+            ],
           ),
 
           SizedBox(width: 15.0),
 
-          CircleAvatar(
-            radius: 22.0,
-            backgroundColor: Colors.yellow,
+          Stack(
+            children: <Widget>[
+              CircleAvatar(
+                radius: 22.0,
+                backgroundImage: AssetImage('assets/steven.jpg'),
+              ),
+              Positioned(
+                right: 1.0,
+                bottom: 1.0,
+                child: CircleAvatar(
+                  radius: 6.0,
+                  backgroundColor: Colors.green,
+                ),
+              ),
+            ],
           ),
 
           SizedBox(width: 15.0),
 
-          CircleAvatar(
-            radius: 22.0,
-            backgroundColor: Colors.yellow,
+          Stack(
+            children: <Widget>[
+              CircleAvatar(
+                radius: 22.0,
+                backgroundImage: AssetImage('assets/andy.jpg'),
+              ),
+              Positioned(
+                right: 1.0,
+                bottom: 1.0,
+                child: CircleAvatar(
+                  radius: 6.0,
+                  backgroundColor: Colors.green,
+                ),
+              ),
+            ],
           ),
 
           SizedBox(width: 15.0),
 
-          CircleAvatar(
-            radius: 22.0,
-            backgroundColor: Colors.yellow,
+          Stack(
+            children: <Widget>[
+              CircleAvatar(
+                radius: 22.0,
+                backgroundImage: AssetImage('assets/andrew.jpg'),
+              ),
+              Positioned(
+                right: 1.0,
+                bottom: 1.0,
+                child: CircleAvatar(
+                  radius: 6.0,
+                  backgroundColor: Colors.green,
+                ),
+              ),
+            ],
           ),
 
           SizedBox(width: 15.0),

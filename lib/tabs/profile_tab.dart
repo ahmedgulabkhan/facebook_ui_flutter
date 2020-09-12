@@ -23,7 +23,7 @@ class ProfileTab extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: <Widget>[
                     CircleAvatar(
-                      backgroundColor: Colors.yellow,
+                      backgroundImage: AssetImage('assets/Mike Tyler.jpg'),
                       radius: 70.0,
                     ),
                     SizedBox(height: 20.0),

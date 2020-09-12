@@ -17,12 +17,12 @@ class HomeTab extends StatelessWidget {
           OnlineWidget(),
           SeparatorWidget(),
           StoriesWidget(),
-          SeparatorWidget(),
-          PostWidget(post: posts[0]),
-          SeparatorWidget(),
-          PostWidget(post: posts[0]),
-          SeparatorWidget(),
-          PostWidget(post: posts[0]),
+          for(Post post in posts) Column(
+            children: <Widget>[
+              SeparatorWidget(),
+              PostWidget(post: post),
+            ],
+          ),
           SeparatorWidget(),
         ],
       ),
