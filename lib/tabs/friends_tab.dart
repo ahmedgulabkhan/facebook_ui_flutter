@@ -53,7 +53,7 @@ class FriendsTab extends StatelessWidget {
             Row(
               children: <Widget>[
                 CircleAvatar(
-                  backgroundColor: Colors.yellow,
+                  backgroundImage: AssetImage('assets/chris.jpg'),
                   radius: 40.0,
                 ),
                 SizedBox(width: 20.0),
@@ -61,7 +61,7 @@ class FriendsTab extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    Text('Jack Tyler', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
+                    Text('Chris', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
                     SizedBox(height: 15.0),
                     Row(
                       children: <Widget>[
@@ -94,7 +94,7 @@ class FriendsTab extends StatelessWidget {
             Row(
               children: <Widget>[
                 CircleAvatar(
-                  backgroundColor: Colors.yellow,
+                  backgroundImage: AssetImage('assets/adelle.jpg'),
                   radius: 40.0,
                 ),
                 SizedBox(width: 20.0),
@@ -102,7 +102,7 @@ class FriendsTab extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    Text('Jack Tyler', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
+                    Text('Adelle', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
                     SizedBox(height: 15.0),
                     Row(
                       children: <Widget>[
@@ -135,7 +135,7 @@ class FriendsTab extends StatelessWidget {
             Row(
               children: <Widget>[
                 CircleAvatar(
-                  backgroundColor: Colors.yellow,
+                  backgroundImage: AssetImage('assets/dan.jpg'),
                   radius: 40.0,
                 ),
                 SizedBox(width: 20.0),
@@ -143,7 +143,7 @@ class FriendsTab extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    Text('Jack Tyler', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
+                    Text('Danny smith', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
                     SizedBox(height: 15.0),
                     Row(
                       children: <Widget>[
@@ -176,7 +176,7 @@ class FriendsTab extends StatelessWidget {
             Row(
               children: <Widget>[
                 CircleAvatar(
-                  backgroundColor: Colors.yellow,
+                  backgroundImage: AssetImage('assets/eddison.jpg'),
                   radius: 40.0,
                 ),
                 SizedBox(width: 20.0),
@@ -184,7 +184,7 @@ class FriendsTab extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    Text('Jack Tyler', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
+                    Text('Eddison', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
                     SizedBox(height: 15.0),
                     Row(
                       children: <Widget>[
@@ -217,7 +217,7 @@ class FriendsTab extends StatelessWidget {
             Row(
               children: <Widget>[
                 CircleAvatar(
-                  backgroundColor: Colors.yellow,
+                  backgroundImage: AssetImage('assets/jeremy.jpg'),
                   radius: 40.0,
                 ),
                 SizedBox(width: 20.0),
@@ -225,7 +225,7 @@ class FriendsTab extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    Text('Jack Tyler', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
+                    Text('Jeremy', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
                     SizedBox(height: 15.0),
                     Row(
                       children: <Widget>[
@@ -258,7 +258,7 @@ class FriendsTab extends StatelessWidget {
             Row(
               children: <Widget>[
                 CircleAvatar(
-                  backgroundColor: Colors.yellow,
+                  backgroundImage: AssetImage('assets/Joey.jpg'),
                   radius: 40.0,
                 ),
                 SizedBox(width: 20.0),
@@ -266,7 +266,7 @@ class FriendsTab extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    Text('Jack Tyler', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
+                    Text('Joey', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
                     SizedBox(height: 15.0),
                     Row(
                       children: <Widget>[
@@ -299,7 +299,7 @@ class FriendsTab extends StatelessWidget {
             Row(
               children: <Widget>[
                 CircleAvatar(
-                  backgroundColor: Colors.yellow,
+                  backgroundImage: AssetImage('assets/Kalle.jpg'),
                   radius: 40.0,
                 ),
                 SizedBox(width: 20.0),
@@ -307,7 +307,7 @@ class FriendsTab extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    Text('Jack Tyler', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
+                    Text('Kalle Jackson', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
                     SizedBox(height: 15.0),
                     Row(
                       children: <Widget>[
@@ -340,7 +340,7 @@ class FriendsTab extends StatelessWidget {
             Row(
               children: <Widget>[
                 CircleAvatar(
-                  backgroundColor: Colors.yellow,
+                  backgroundImage: AssetImage('assets/marcus.jpg'),
                   radius: 40.0,
                 ),
                 SizedBox(width: 20.0),
@@ -348,7 +348,7 @@ class FriendsTab extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    Text('Jack Tyler', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
+                    Text('Marcus Fenix', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
                     SizedBox(height: 15.0),
                     Row(
                       children: <Widget>[
@@ -385,7 +385,7 @@ class FriendsTab extends StatelessWidget {
             Row(
               children: <Widget>[
                 CircleAvatar(
-                  backgroundColor: Colors.yellow,
+                  backgroundImage: AssetImage('assets/mathew.jpg'),
                   radius: 40.0,
                 ),
                 SizedBox(width: 20.0),
@@ -393,7 +393,7 @@ class FriendsTab extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    Text('Jack Tyler', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
+                    Text('Mathew', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
                     SizedBox(height: 15.0),
                     Row(
                       children: <Widget>[
@@ -426,7 +426,7 @@ class FriendsTab extends StatelessWidget {
             Row(
               children: <Widget>[
                 CircleAvatar(
-                  backgroundColor: Colors.yellow,
+                  backgroundImage: AssetImage('assets/joey.jpg'),
                   radius: 40.0,
                 ),
                 SizedBox(width: 20.0),
@@ -434,7 +434,7 @@ class FriendsTab extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    Text('Jack Tyler', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
+                    Text('Joey', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
                     SizedBox(height: 15.0),
                     Row(
                       children: <Widget>[
@@ -467,7 +467,7 @@ class FriendsTab extends StatelessWidget {
             Row(
               children: <Widget>[
                 CircleAvatar(
-                  backgroundColor: Colors.yellow,
+                  backgroundImage: AssetImage('assets/adelle.jpg'),
                   radius: 40.0,
                 ),
                 SizedBox(width: 20.0),
@@ -475,7 +475,7 @@ class FriendsTab extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    Text('Jack Tyler', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
+                    Text('Adelle', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
                     SizedBox(height: 15.0),
                     Row(
                       children: <Widget>[
@@ -508,7 +508,7 @@ class FriendsTab extends StatelessWidget {
             Row(
               children: <Widget>[
                 CircleAvatar(
-                  backgroundColor: Colors.yellow,
+                  backgroundImage: AssetImage('assets/timothy.jpg'),
                   radius: 40.0,
                 ),
                 SizedBox(width: 20.0),
@@ -516,7 +516,7 @@ class FriendsTab extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    Text('Jack Tyler', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
+                    Text('Timothy', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
                     SizedBox(height: 15.0),
                     Row(
                       children: <Widget>[
@@ -549,7 +549,7 @@ class FriendsTab extends StatelessWidget {
             Row(
               children: <Widget>[
                 CircleAvatar(
-                  backgroundColor: Colors.yellow,
+                  backgroundImage: AssetImage('assets/jeremy.jpg'),
                   radius: 40.0,
                 ),
                 SizedBox(width: 20.0),
@@ -557,7 +557,7 @@ class FriendsTab extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    Text('Jack Tyler', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
+                    Text('Jeremy', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
                     SizedBox(height: 15.0),
                     Row(
                       children: <Widget>[
@@ -590,7 +590,7 @@ class FriendsTab extends StatelessWidget {
             Row(
               children: <Widget>[
                 CircleAvatar(
-                  backgroundColor: Colors.yellow,
+                  backgroundImage: AssetImage('assets/tanya.jpg'),
                   radius: 40.0,
                 ),
                 SizedBox(width: 20.0),
@@ -598,7 +598,7 @@ class FriendsTab extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    Text('Jack Tyler', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
+                    Text('Tanya', style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold)),
                     SizedBox(height: 15.0),
                     Row(
                       children: <Widget>[

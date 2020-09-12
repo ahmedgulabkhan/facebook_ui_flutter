@@ -19,7 +19,7 @@ class PostWidget extends StatelessWidget {
           Row(
             children: <Widget>[
               CircleAvatar(
-                backgroundColor: Colors.yellow,
+                backgroundImage: AssetImage(post.profileImageUrl),
                 radius: 20.0,
               ),
               SizedBox(width: 7.0),
@@ -27,9 +27,9 @@ class PostWidget extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
-                  Text('Sam Wilson', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 17.0)),
+                  Text(post.username, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 17.0)),
                   SizedBox(height: 5.0),
-                  Text('1h')
+                  Text(post.time)
                 ],
               ),
             ],
@@ -37,7 +37,27 @@ class PostWidget extends StatelessWidget {
 
           SizedBox(height: 20.0),
 
-          Text('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id ligula enim. Nunc suscipit, sem vitae sagittis sagittis, ipsum lectus auctor augue, in pellentesque velit magna et risus. Quisque vehicula molestie maximus. Praesent at enim non metus iaculis tincidunt. Sed laoreet, mi sit amet laoreet imperdiet, nibh arcu finibus felis, quis eleifend lorem libero nec ante. Quisque pellentesque consequat orci nec ultrices. Sed tincidunt, ex eu tempus maximus, turpis est cursus ligula, sit amet elementum turpis quam vitae metus. Quisque vehicula, nunc quis aliquet faucibus, libero ex volutpat mi, eget efficitur sapien tellus quis velit. Morbi efficitur velit euismod arcu suscipit aliquet. Nullam rhoncus faucibus augue, vitae molestie ante. Vivamus imperdiet mattis enim eget faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut quam a neque tempor auctor eu sit amet augue. In a efficitur arcu. Nam maximus eros sit amet pharetra vestibulum.'),
+          Text(post.content, style: TextStyle(fontSize: 15.0)),
+
+          SizedBox(height: 10.0),
+
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: <Widget>[
+              Row(
+                children: <Widget>[
+                  Icon(FontAwesomeIcons.thumbsUp, size: 15.0, color: Colors.blue),
+                  Text(' ${post.likes}'),
+                ],
+              ),
+              Row(
+                children: <Widget>[
+                  Text('${post.comments} comments  •  '),
+                  Text('${post.shares} shares'),
+                ],
+              ),
+            ],
+          ),
 
           Divider(height: 30.0),
 
